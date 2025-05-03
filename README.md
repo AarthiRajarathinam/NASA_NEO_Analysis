@@ -18,20 +18,9 @@ Near-Earth Objects are asteroids and comets with orbits that bring them close to
 
 ## 📦 Installation
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/nasa-neo-data-analysis.git
-   cd nasa-neo-data-analysis
-   ```
 
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up your NASA API key:
+1. Set up your NASA API key:
 
    * Obtain a free API key from: [https://api.nasa.gov](https://api.nasa.gov)
    * Create a `.env` file in the root directory and add:
@@ -49,17 +38,13 @@ Near-Earth Objects are asteroids and comets with orbits that bring them close to
 ## 🛠️ Technologies Used
 
 * Python 3.x
-* Pandas, NumPy, Matplotlib, Seaborn
-* Requests, dotenv
+* Pandas, Streamlit
+* Requests , re
 * Jupyter Notebook
 
 ## 📚 Resources
 
 * [NASA NEO API Docs](https://api.nasa.gov/)
-* [NASA CNEOS](https://cneos.jpl.nasa.gov/)
 
-## 📜 License
 
-This project is licensed under the MIT License.
 
----
